@@ -128,7 +128,7 @@ function loadWidget(config) {
 	var userAction = false,
 		userActionTimer,
 		messageTimer,
-		messageArray = ["好久不见，日子过得好快呢……", "大坏蛋！你都多久没理人家了呀，嘤嘤嘤～", "嗨～快来逗我玩吧！", "拿小拳拳锤你胸口！", "记得把小家加入 Adblock 白名单哦！"];
+		messageArray = ["温柔正确的人总是难以生存，因为这世界既不温柔，也不正确", "可能你并不期望……但是我想把关系维持下去。不是义务，而是意愿的问题。……所以，给我扭曲你人生的权力", "努力是不会背叛自己的，虽然梦想会背叛。 努力不一定能实现梦想，但是曾经努力过的事实却足以安慰自己。", "真正重要的东西，肉眼是看不到的。", "我讨厌温柔的人。温柔的人其实对所有人都温柔，我却会误以为只对我温柔， 然后就沾沾自喜得意忘形，最后闹得不欢而散，双方都受到伤害。--所以我才讨厌温柔的人。", "记得把小家加入 Adblock 白名单哦！"];
 	window.addEventListener("mousemove", () => userAction = true);
 	window.addEventListener("keydown", () => userAction = true);
 	setInterval(() => {
